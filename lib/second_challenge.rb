@@ -7,8 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.values.each do |key, value|
-    puts "#{value}"
+  groceries.each do |key, value|
+    value.values.each do |k, v|
+    puts "#{v}"
+    end
   end
 
   # contacts.each do |person, data|
