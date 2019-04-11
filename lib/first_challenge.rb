@@ -17,7 +17,7 @@ def first_challenge
   contacts["Freddy Mercury"].each do |attribute, value|
     if attribute == :favorite_icecream_flavors
       value.each do |flavor|
-        flavor.shift
+        shift.flavor
       end
     end
   end
